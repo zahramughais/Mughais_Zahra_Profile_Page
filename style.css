@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #aaa;
+}
+h1 {
+    font-weight: 500;
+}
+h2 {
+    font-weight: 400;
+}
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.65rem;
+}
+ul {
+    list-style: none;
+}
+li button {
+    border: none;
+    background-color: #fff;
+}
+.nav {
+    display: flex;
+    background-color: #000;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem 10%;
+}
+.nav-content {
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.active {
+    color: #fff;
+}
+.main {
+    width: 80%;
+    margin: 2rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    min-width: 45rem;
+}
+.connections {
+    min-width: 25rem;
+}
+.blue {
+    background-color: #17A2B8;
+    height: 5rem;
+}
+.card {
+    border: 3px solid #aaa;
+    margin-bottom: 2rem;
+}
+.card-title {
+    background-color: #222;
+    color: #aaa;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    padding-left:2rem;
+}
+.card-body {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.card-footer {
+    border-top: 3px solid #aaa;
+    padding: 1rem 2rem;
+    text-decoration: underline;
+}
+.card-footer a{
+    color: blue;
+}
+.location {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+}
+.location img {
+    width: 1rem
+}
+.edit-link {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.edit-link img{
+    width: 1.2rem;
+    margin: 0.5rem;
+}
+.edit-link a{
+    color: blue;
+    text-decoration: underline;
+    align-self: center;
+}
+.gray {
+    color: #aaa;
+    margin-bottom: 0.65rem;
+}
+.notifications {
+    margin-right: 1rem;
+    padding: 0.25rem 0.75rem;
+    background-color: #aaa;
+    color: #222;
+    border-radius: 50%;
+    text-align: center;
+}
+.profile-picture {
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.contact-id {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.req-btn {
+    width: 2.5rem;
+    margin-left: 0.25rem;
+    margin-top: 1rem;
+}
+.connect-req {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+}
+#sign-out-btn {
+    color: #fff;
+    background-color: #17A2B8;
+    font-size: 1rem;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 black;
+    padding: 0 1rem;
+}
+#user-icon {
+    width: 6rem;
+    margin-top: -3rem;
+    background-color: #fff;
+    border: 3px solid #aaa;
+    border-radius: 50%;
+    padding: 2px;
+}
+#name {
+    font-size: 2rem;
+}
